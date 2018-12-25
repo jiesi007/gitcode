@@ -47,15 +47,15 @@ public class StrategicPattern {
     }
 }
 
- class Person{
-    public Person(){}
-    private String name;
-    public Person(String name){
-        this.name=name;
-    }
-    public void show(){
-        System.out.println(name);
-    }
+class Person{
+   public Person(){}
+   private String name;
+   public Person(String name){
+       this.name=name;
+   }
+   public void show(){
+       System.out.println(name);
+   }
 }
 
 //相当于那个Decorate

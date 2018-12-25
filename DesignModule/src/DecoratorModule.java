@@ -25,16 +25,16 @@ public class DecoratorModule {
     }
 }
 
-  class PersonDecoratorModule {      //被装饰者
-    private String name;
+class PersonDecoratorModule {      //被装饰者
+  private String name;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public void setName(String name) {
+      this.name = name;
+  }
 
-    public void show() {
-        System.out.println("装扮的" + name+" ");
-    }
+  public void show() {
+      System.out.println("装扮的" + name+" ");
+  }
 }
 
  abstract class FineryDecoratorModule extends PersonDecoratorModule{  //抽象装饰类
