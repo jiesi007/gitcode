@@ -2,37 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9ad31da-d2dc-4719-ba4d-527ef0ee26ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignModule/src/FactoryModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ObjectCreate/ObjectCreate.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ObjectCreate/src/ObjectCreate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocketTest/SocketTest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocketTest/src/SocketTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/TestThread.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/CallableThreadTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/TestThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestThread/src/ThreadClassDemoimplement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/javaLivingExample.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/CollectionToArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/Collections" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/CollectionsReplaceAll.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/CollectionsReverse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/CollectionsRotate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/HashSetDelete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/Instanceof.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/MainCollections.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/SortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/TreeMapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaLivingExample/src/UnmodifiableList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Apply.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BaseBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Filesinput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InputTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IteratorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Orc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestDecorator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/employee.dat.pages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/employee11.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ObjectCreate/ObjectCreate.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ObjectCreate/src/ObjectCreate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocketTest/SocketTest.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocketTest/src/SocketTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestThread/TestThread.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestThread/src/CallableThreadTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestThread/src/TestThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestThread/src/ThreadClassDemoimplement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/javaLivingExample.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/CollectionToArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/Collections" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/CollectionsReplaceAll.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/CollectionsReverse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/CollectionsRotate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/HashSetDelete.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/Instanceof.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/MainCollections.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/SortTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/TreeMapTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaLivingExample/src/UnmodifiableList.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +35,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Apply.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Apply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InputTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,9 +92,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="54" />
+    <option name="x" value="39" />
+    <option name="y" value="38" />
     <option name="width" value="1219" />
     <option name="height" value="763" />
   </component>
@@ -116,36 +131,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/DesignModule/src" />
     </key>
   </component>
@@ -553,15 +554,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545711379043</updated>
-      <workItem from="1545711382306" duration="1994000" />
+      <workItem from="1545711382306" duration="2845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1994000" />
+    <option name="totallyTimeSpent" value="2845000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="54" width="1219" height="763" extended-state="0" />
+    <frame x="39" y="38" width="1219" height="763" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -570,14 +571,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32965165" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29056925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29056925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -660,14 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaLivingExample/src/Collections">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ObjectCreate/src/ObjectCreate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -677,14 +670,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestThread/src/TestThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SocketTest/src/SocketTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -716,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InputTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IteratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -748,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Apply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/employee.dat.pages">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -772,5 +741,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SocketTest/src/SocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaLivingExample/src/CollectionsRotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaLivingExample/src/Collections">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Apply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

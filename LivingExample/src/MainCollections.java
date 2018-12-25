@@ -3,7 +3,6 @@
  */
 
 import java.util.*;
-import java.util.HashMap;
 /*请注意：
                             轻量级集合包装器：
 * Collections类包含很多实例化方法:(注意不和和collection接口混淆)
