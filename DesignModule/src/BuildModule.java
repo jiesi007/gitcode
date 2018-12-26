@@ -26,7 +26,7 @@ interface Subject {
     //String Subject();
 }
 
-class Boss implements Subject {
+class Boss implements Subject {//老板也是通知者，所以也要继承Subject
     private String action;
     private List<Observer> observer = new ArrayList<Observer>();
 
@@ -46,7 +46,7 @@ abstract class Observer {
     protected String name;
     protected Subject sub;
 
-    public Observer(String name, Subject sub) {
+    public Observer(String name, Subject sub) {//这里换成了Subject，是通知者的抽象
         this.name = name;
         this.sub = sub;
     }
@@ -55,7 +55,7 @@ abstract class Observer {
 }
 
 class StockObserver extends Observer {
-    public StockObserver(String name, Subject sub) {
+    public StockObserver(String name, Subject sub) {//原来是前台，现在改为熟
         super(name, sub);
     }
 
