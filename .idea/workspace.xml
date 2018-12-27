@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9ad31da-d2dc-4719-ba4d-527ef0ee26ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignModule/src/Composite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignModule/src/StateModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignModule/AbstractFactoryModule.class" afterPath="$PROJECT_DIR$/out/production/DesignModule/AbstractFactoryModule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignModule/SqlserverUser.class" afterPath="$PROJECT_DIR$/out/production/DesignModule/SqlserverUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignModule/User.class" afterPath="$PROJECT_DIR$/out/production/DesignModule/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignModule/src/ComponentMOdule.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignModule/src/Composite.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="StateModule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignModule/src/StateModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="70">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#383#384#0" expanded="true" />
                 <element signature="e#417#418#0" expanded="true" />
@@ -52,16 +49,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Composite.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesignModule/src/Composite.java">
+      <file leaf-file-name="ComponentMOdule.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DesignModule/src/ComponentMOdule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="144">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1437#1448#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +104,7 @@
         <option value="$PROJECT_DIR$/DesignModule/src/AbstractFactoryModule.java" />
         <option value="$PROJECT_DIR$/DesignModule/src/StateModule.java" />
         <option value="$PROJECT_DIR$/DesignModule/src/Composite.java" />
+        <option value="$PROJECT_DIR$/DesignModule/src/ComponentMOdule.java" />
       </list>
     </option>
   </component>
@@ -216,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StateModule">
+  <component name="RunManager" selected="Application.ComponentMOdule">
     <configuration default="false" name="FactoryModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FactoryModule" />
@@ -265,6 +269,21 @@
     <configuration default="false" name="StateModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="StateModule" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DesignModule" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ComponentMOdule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ComponentMOdule" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -657,18 +676,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.FactoryModule" />
       <item index="1" class="java.lang.String" itemvalue="Application.BuildModule" />
       <item index="2" class="java.lang.String" itemvalue="Application.AbstractFactoryModule" />
       <item index="3" class="java.lang.String" itemvalue="Application.StateModule" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ComponentMOdule" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.StateModule" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AbstractFactoryModule" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BuildModule" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FactoryModule" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.ComponentMOdule" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StateModule" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AbstractFactoryModule" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BuildModule" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FactoryModule" />
       </list>
     </recent_temporary>
   </component>
@@ -682,16 +703,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545711379043</updated>
-      <workItem from="1545711382306" duration="30370000" />
+      <workItem from="1545711382306" duration="32878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30370000" />
+    <option name="totallyTimeSpent" value="32878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -715,7 +735,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -739,6 +759,12 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignModule/src/ComponentMOdule.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DesignModule/src/StateModule.java</url>
           <line>4</line>
@@ -748,7 +774,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1104,10 +1130,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DesignModule/src/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DesignModule/src/StateModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="70">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#383#384#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
@@ -1125,15 +1159,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignModule/src/Composite.java">
+    <entry file="file://$PROJECT_DIR$/DesignModule/src/ComponentMOdule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="144">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1437#1448#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
           </folding>
         </state>
       </provider>
