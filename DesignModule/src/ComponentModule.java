@@ -4,20 +4,22 @@ import java.util.List;
 /**
  * Created by jiesi on 2018/12/27.
  */
-public class ComponentMOdule {
+public class ComponentModule {
     public static void main(String[] args) {
         Composite root=new Composite("root");
         root.add(new Leaf("Leaf A"));
         root.add(new Leaf("Leaf B"));
+
+
         Composite comp=new Composite("Composite X");
-        comp.add(new Leaf("Leaf XA:)"));
-        comp.add(new Leaf("Leaf XA:)"));
+        comp.add(new Leaf("Leaf XA"));
+        comp.add(new Leaf("Leaf XA"));
         root.add(comp);
 
         Composite comp2=new Composite("Composote XY");
-        comp2.add(new Leaf("Leaf XYA:)"));
-        comp2.add(new Leaf("Leaf XYB:)"));
-        comp.add(comp);
+        comp2.add(new Leaf("Leaf XYA"));
+        comp2.add(new Leaf("Leaf XYB"));
+        comp.add(comp2);
         root.Display(1);
 
     }
@@ -25,7 +27,8 @@ public class ComponentMOdule {
 
 
 /*Component 对象声明接口，在适当的情况下实现所有类共有接口的默认行为，声明一个接口用于访问和管理的子部件。
-Leaf代表叶节点对象。    Composite 定义有支节点行为，用来存储子部件。在Component接口中实现与子部件有关的操作。
+Leaf代表叶节点对象。
+ Composite 定义有支节点行为，用来存储子部件。在Component接口中实现与子部件有关的操作。
 * */
 abstract class Component{
     protected String name;
@@ -56,10 +59,10 @@ class Composite extends Component{
         super(name);
     }
     public void add(Component c){
-
+        child.add(c);
     }
     public void Remove(Component c){
-
+        child.remove(c);
     }
     public void Display(int depth){
         for(Component component : child){
