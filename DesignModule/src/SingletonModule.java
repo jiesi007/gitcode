@@ -20,7 +20,7 @@ class Singleton {
 //        }
 //        return instance;
 //    }
-    //线程安全的双重加锁方法
+    //懒汉模式：线程安全的双重加锁方法
     private static Singleton instance;
     private static Object syncRoot = new Object();
 
@@ -34,10 +34,9 @@ class Singleton {
         }
     }
 
-
 }
 
-/*    // 饿汉式,就是直接生成
+/*    // 饿汉式,就是直接生成，静态初始化
     private static final Singleton instance = new Singleton();
     private Singleton(){
     }
