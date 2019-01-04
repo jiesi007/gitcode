@@ -4,3 +4,8 @@
 public class FlyweightModule {
 
 }
+
+abstract class Website {
+    public abstract void use();
+
+}
